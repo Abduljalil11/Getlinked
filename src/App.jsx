@@ -1,5 +1,5 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import { useState } from 'react'
+import { useState } from 'react';
 import NavBar from './components/NavBar';
 import Landing from './pages/Landing';
 import Contact from './pages/Contact';
