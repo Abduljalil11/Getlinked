@@ -1583,7 +1583,12 @@ p,h1,h2,h3,h4{
 
   .contactActive{
     /* background: linear-gradient(90deg, #903AFF 3.08%, #FF26B9 93.85%); */
-    color: rgba(255, 38, 185, 1);
+    background-image: linear-gradient(90deg, #903AFF 3.08%, #FF26B9 93.85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
     margin: 0;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
