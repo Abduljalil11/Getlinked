@@ -28,7 +28,7 @@ function NavBar({modal, setModal}) {
                 <a href="#faqs" className="links">FAQs</a>
                 <NavLink to="/contact" className={({isActive}) => isActive? "contactActive" : "links"} >Contact</NavLink>
             </div>
-            <NavLink to="/register" className="register">Register</NavLink>
+            <NavLink to="/register" className={({isActive}) => isActive? "registerActive" : "register"}>Register</NavLink>
         </div>
     </nav>
   )

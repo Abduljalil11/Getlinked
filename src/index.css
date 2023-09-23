@@ -1565,6 +1565,24 @@ p,h1,h2,h3,h4{
     margin-block: 0;
   }
 
+  .registerActive{
+    width: 172px;
+    margin-top: unset;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 53px;
+    border-radius: 4px;
+    background: linear-gradient(#150E28, #150E28) padding-box,
+                linear-gradient(180deg, #9A39FF 0%, #FF29B9 100%);
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+  }
+
   .inputDiv{
     gap: unset;
     grid-template-columns: 47% 47%;
