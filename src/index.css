@@ -1741,6 +1741,19 @@ p,h1,h2,h3,h4{
     z-index: -1;
     opacity: 68%;
   }
+  .first::after{
+    content: " ";
+    background-image: url('./assets/images/Purple-Lens-Flare-PNG-big.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1037px;
+    height: 948px;
+    position: absolute;
+    bottom: -5vw;
+    right: -15vw;
+    z-index: -1;
+    opacity: 68%;
+  }
 
   .firstDiv{
     flex-direction: row;
