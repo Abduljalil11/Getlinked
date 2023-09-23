@@ -7,7 +7,7 @@ import grayStar from '../assets/images/gray-star-big.png'
 import puStar from '../assets/images/star pu.png'
 import movement from '../assets/images/movement.png'
 import bigMovement from '../assets/images/movement-big.png'
-import Spinner from '../components/spinner'
+import Spinner from '../components/Spinner'
 
 function Register({modal, setModal}) {
     const [categoryList, setCategoryList] = useState([]);
