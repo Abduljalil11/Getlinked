@@ -1826,6 +1826,7 @@ p,h1,h2,h3,h4{
     text-align: left;
     line-height: 33.2px;
     margin-bottom: 0;
+    text-wrap: balance;
   }
 
   .countdown{
