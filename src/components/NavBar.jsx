@@ -4,8 +4,8 @@ import NavIcon from "../assets/images/NavIcon.svg"
 import Close from "../assets/images/Close.svg"
 
 function NavBar({modal, setModal}) {
-    const [menuOpen, setMenuOpen] = useState(false)
-
+    const [menuOpen, setMenuOpen] = useState(false);
+    
     const handleClick = (e) => {
         if(e.currentTarget.className === "open"){
             setMenuOpen(prev => true)

@@ -53,16 +53,21 @@ function Register({modal, setModal}) {
     const postApplication = async (applicationData) => {
         const raw = JSON.stringify(applicationData);
 
-        const responce = await fetch('https://backend.getlinked.ai/hackathon/registration',{
-            method: 'POST',
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: raw,
-        })
-        const data = await responce.json();
-        setStatus(data)
-        console.log(data)
+        try {
+            const responce = await fetch('https://backend.getlinked.ai/hackathon/registration',{
+                method: 'POST',
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: raw,
+            })
+            const data = await responce.json();
+            setStatus(data)
+            //console.log(data)
+            
+        } catch (error) {
+            console.log(error)
+        }
     }
 
     const handleSubmit = (e) => {
